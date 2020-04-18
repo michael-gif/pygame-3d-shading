@@ -1,8 +1,8 @@
 # 3d Pygame cube shading
 Basic shading of a face of a cube in pygame.
 ### Usage:
-- Change the fourth parameter of the cube object on line 76 of the code to change the pixel depth.
-- Change the denominator of he fraction on line of the code to change the maximum range of the light.
+- Change the fourth parameter of the cube object on line 76 to change the pixel depth of the face.
+- Change the denominator of he fraction on line 132 to change the maximum range of the light.
 ### How it works:
 - The number of pixels on the face is determined by the fourth parameter of the cube class.
 - The face is split into a grid of polygons, each with a different greyscale value.
