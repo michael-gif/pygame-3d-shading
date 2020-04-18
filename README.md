@@ -5,7 +5,6 @@ Basic shading of a face of a cube in pygame.
 - Change the denominator of he fraction on line 132 to change the maximum range of the light.
 ### Screenshots:
 ![alt text](https://github.com/michael-gif/pygame-shading/blob/master/game%20engine%20screenshot%201.png "The cube being shaded.")  
-![alt text](https://github.com/michael-gif/pygame-shading/blob/master/game%20engine%20screenshot%202.png "The cube being shaded.")  
 ### How it works:
 - The number of pixels on the face is determined by the fourth parameter of the cube class.
 - The face is split into a grid of polygons, each with a different greyscale value.
